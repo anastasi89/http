@@ -1,3 +1,4 @@
-import './css/style.css';
+import Widget from './Widget';
 
-import './js/app';
+const helpDesk = new Widget(document.querySelector('.container'));
+helpDesk.bindToDOM();
